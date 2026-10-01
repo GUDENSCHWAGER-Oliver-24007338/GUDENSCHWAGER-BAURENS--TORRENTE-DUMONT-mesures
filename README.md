@@ -1,1 +1,3 @@
-# GUDENSCHWAGER-BAURENS--TORRENTE-DUMONT-mesures
+Oliver Gudenschwager
+Valentin Baurens-Torrente
+Aline Dumont
