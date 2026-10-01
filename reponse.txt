@@ -1,0 +1,5 @@
+Question 7 : 
+La validité de certaines métriques d'Halstead est contestée car on ne peut pas savoir précisément ce qu’elle calcule à cause de leur formule qui ne se repose sur rien de solide et ne représente pas le travail d’un développeur. 
+
+
+
