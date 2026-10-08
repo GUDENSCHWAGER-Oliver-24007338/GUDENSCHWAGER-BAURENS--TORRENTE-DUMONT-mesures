@@ -1,5 +1,23 @@
 Question 7 : 
 La validité de certaines métriques d'Halstead est contestée car on ne peut pas savoir précisément ce qu’elle calcule à cause de leur formule qui ne se repose sur rien de solide et ne représente pas le travail d’un développeur. 
 
+Question 12:
+1)
+1. 1
+2. 5
+3. 5
+4. 3
+5. 2
+6. 3
+7. 0
+8. 0
+9. 3
+10. 2
+11. 3
+12. 4
+13. 0
+14. 4
+35
 
-
+2)
+TCF = 0.65 + 0.01 * 35 = 1
