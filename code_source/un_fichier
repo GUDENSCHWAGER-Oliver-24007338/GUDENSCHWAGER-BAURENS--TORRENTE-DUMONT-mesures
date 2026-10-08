@@ -1,12 +1,30 @@
+/**
+ * Auteur : Valentin Baurens-Torrente
+ * Date : 8 Octobre 2026
+ * Description : Implémentation de l'algorithme Quicksort sur un tableau d'entiers.
+ */
 void iqsort0 ( int *a , int n )
 {
 	int i , j ;
-	if ( n <=1)
+	
+	// si le tableau contient 1 élément ou moins, il est déjà trié.
+	if ( n <= 1)
 		return ;
+		
+	// Initialisation du partitionnement : a[0] est le pivot.
+	// i parcourt le reste du tableau, j représente l'index du dernier élément plus petit que le pivot.
 	for ( i = 1 , j = 0; i < n ; i ++)
+		// Si l'élément analysé est strictement inférieur au pivot
 		if ( a [ i ] < a [0])
+			// on incrémente j et on échange a[i] et a[j].
 			swap (++ j , i , a );
+			
+	// On place le pivot à sa position définitive.
 	swap (0 , j , a );
+	
+	// Appel récursif pour trier la partie gauche.
 	iqsort0 (a , j );
-	iqsort0 ( a + j +1 , n -j -1);
+	
+	// Appel récursif pour trier la partie droite.
+	iqsort0 ( a + j + 1 , n - j - 1);
 }
