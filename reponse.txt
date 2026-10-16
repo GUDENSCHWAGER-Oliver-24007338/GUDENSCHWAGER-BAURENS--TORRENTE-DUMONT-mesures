@@ -29,3 +29,9 @@ Exercice 1:
 4) un arbre adulte prend 2.91 année pour decarboniser l'impacte fait avec cette excecution
 
 Exercice 2:
+1)
+La formule utilisé par les site est bien la meme que donnait pas le cours:
+EcoIndex = (100 − 5 ∗ 3× Quantile (xDOM ) + 2× Quantile (xHTTP )+ Quantile (xKo )) / 6
+
+2) La formule de la quantile est le suivant:
+Quantile (xi ) = (n − 1) + (xi − borneInf (n)) / (borneSup (n)− borneInf (n) )
